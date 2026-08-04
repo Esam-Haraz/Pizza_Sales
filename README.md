@@ -226,7 +226,7 @@ Open Power_BI/pizza_sales_report.pbix using Power BI Desktop to explore interact
 
 🤝 Connect with Me
 
-LinkedIn: [Esam Haraz](www.linkedin.com/in/esam-haraz-459925402)
+LinkedIn: [Esam Haraz](https://www.linkedin.com/in/esam-haraz-459925402)
 
 GitHub: BananaLeauge
 
