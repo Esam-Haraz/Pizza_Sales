@@ -181,25 +181,25 @@
 ```text
 Pizza_Sales/
 │
-├── Data/
-│   └── pizza_sales.csv               # مجموعة البيانات الأولية من Kaggle
-│
 ├── SQL/
-│   └── pizza_sales_queries.sql       # سكربتات SQL لإنشاء الجدول والتحليل
+│   ├── pizza_sales_queries.sql       # استعلامات إنشاء الجدول والتحليل
+│   └── Date_Converter.sql            # تحويل نوع بيانات التاريخ والوقت
 │
 ├── Excel/
-│   └── pizza_sales_analysis.xlsx     # ملف Excel يحتوي على Pivot Tables ولوحة التحكم
+│   └── pizza_sales_analysis.xlsx     # الجداول المحورية ولوحة التحكم
 │
-├── Power_BI/
+├── Power Bi/
 │   └── pizza_sales_report.pbix       # تقرير Power BI التفاعلي
 │
-├── Images/                           # الصور المستخدمة في التوثيق
+├── Images/                           # لقطات الشاشة المستخدمة في التوثيق
 │   ├── Create_Table.png
 │   ├── KPIs.png
 │   └── ...
 │
-├── README.md                         # التوثيق الرئيسي (باللغة الإنجليزية)
-└── README.ar.md                      # التوثيق باللغة العربية
+├── pizza_sales.csv                   # البيانات الخام من Kaggle
+├── Business Requirements.docx        # متطلبات المشروع
+├── README.md                         # التوثيق الرئيسي (إنجليزي)
+└── README.ar.md                      # التوثيق (عربي)
 ```
 
 🚀 كيفية التشغيل والتكرار

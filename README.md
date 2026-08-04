@@ -172,25 +172,25 @@ This analysis aims to address these challenges by answering key business questio
 ```text
 Pizza_Sales/
 │
-├── Data/
-│   └── pizza_sales.csv               # Raw dataset extracted from Kaggle
-│
 ├── SQL/
-│   └── pizza_sales_queries.sql       # SQL scripts for table creation and analysis
+│   ├── pizza_sales_queries.sql       # Table creation and analysis queries
+│   └── Date_Converter.sql            # Date/time data type conversion
 │
 ├── Excel/
-│   └── pizza_sales_analysis.xlsx     # Excel workbook with Pivot Tables & Dashboard
+│   └── pizza_sales_analysis.xlsx     # Pivot Tables + Dashboard
 │
-├── Power_BI/
-│   └── pizza_sales_report.pbix       # Power BI report file with interactive visuals
+├── Power Bi/
+│   └── pizza_sales_report.pbix       # Interactive Power BI report
 │
-├── Images/                           # Screenshots used in the documentation
+├── Images/                           # Screenshots used in documentation
 │   ├── Create_Table.png
 │   ├── KPIs.png
 │   └── ...
 │
+├── pizza_sales.csv                   # Raw dataset from Kaggle
+├── Business Requirements.docx        # Project requirements
 ├── README.md                         # Main documentation (English)
-└── README.ar.md                      # Arabic documentation (Optional)
+└── README.ar.md                      # Documentation (Arabic)
 ```
 
 🚀 How to Run & Replicate
