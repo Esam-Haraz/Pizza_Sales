@@ -79,6 +79,7 @@ This analysis aims to address these challenges by answering key business questio
 `[Raw CSV (Kaggle)]` ➡️ `[Excel / Power Query (EDA & Cleaning)]` ➡️ `[SQL Database (Schema Setup & Queries)]` ➡️ `[Power BI (Modeling, DAX & Visualization)]`
 
 <<<<<<< HEAD
+
 - **Step 1: Data Exploration & Cleaning (Excel & Power Query)**
   - Performed initial Exploratory Data Analysis (EDA) to understand the dataset structure and column distributions.
   - Used Power Query for initial cleaning, data type validation, missing value checks, and date/time formatting.
@@ -93,19 +94,21 @@ This analysis aims to address these challenges by answering key business questio
   - Created custom DAX Measures for dynamic key performance indicators (Total Revenue, AOV, Total Pizzas Sold, etc.).
   - Designed an interactive, modern user interface adhering to the 60-30-10 layout design principles for executive reporting.
 =======
+
 * **Step 1: Data Exploration & Cleaning (Excel & Power Query)**
-  * Performed initial Exploratory Data Analysis (EDA) to understand the dataset structure and column distributions.
-  * Used Power Query for initial cleaning, data type validation, missing value checks, and date/time formatting.
+  - Performed initial Exploratory Data Analysis (EDA) to understand the dataset structure and column distributions.
+  - Used Power Query for initial cleaning, data type validation, missing value checks, and date/time formatting.
 
-* **Step 2: Database Setup & Query Execution (SQL)**
-  * Created a dedicated database schema matching the cleaned dataset structure.
-  * Imported the processed CSV data into SQL tables.
-  * Wrote complex SQL queries to extract key operational insights, test KPI calculations, and answer core business questions.
+- **Step 2: Database Setup & Query Execution (SQL)**
+  - Created a dedicated database schema matching the cleaned dataset structure.
+  - Imported the processed CSV data into SQL tables.
+  - Wrote complex SQL queries to extract key operational insights, test KPI calculations, and answer core business questions.
 
-* **Step 3: Modeling & Dashboard Creation (Power BI & Excel)**
-  * Imported data into Power BI and established relationships.
-  * Created custom DAX Measures for dynamic key performance indicators (Total Revenue, AOV, Total Pizzas Sold, etc.).
-  * Designed an interactive, modern user interface adhering to the 60-30-10 layout design principles for executive reporting.
+- **Step 3: Modeling & Dashboard Creation (Power BI & Excel)**
+  - Imported data into Power BI and established relationships.
+  - Created custom DAX Measures for dynamic key performance indicators (Total Revenue, AOV, Total Pizzas Sold, etc.).
+  - Designed an interactive, modern user interface adhering to the 60-30-10 layout design principles for executive reporting.
+
 >>>>>>> 7bb7eea1ff43c1b33bf5cbab9b4d589b1b07d590
 
 ---
@@ -161,23 +164,28 @@ This analysis aims to address these challenges by answering key business questio
 ## 📊 Executive Insights & Key Findings
 
 ### 1. Overall Key Performance Indicators (KPIs)
+
 - **Total Revenue:** $817.86K generated across the 2015 fiscal period.
 - **Total Orders:** 21,350 distinct transactions processed.
 - **Total Pizzas Sold:** 49,574 individual units sold.
 - **Average Order Value (AOV):** $38.31 spent per transaction on average.
 
 ### 2. Operational Trends & Peak Demand
+
 - **Peak Sales Days:** **Friday** and **Thursday** record the highest order volumes and sales activity, indicating key operational windows that require optimized kitchen staffing and inventory readiness.
 
 ### 3. Product Preferences & Category Breakdown
+
 - **Top Category:** The **Classic** pizza category leads the market share in terms of total customer demand and revenue contribution.
 - **Preferred Size:** **Large (L)** size pizzas are overwhelmingly preferred by customers, representing the dominant portion of total sales volume.
 
 ### 4. Product Performance (Top & Bottom)
+
 <<<<<<< HEAD
 
 =======
 >>>>>>> 7bb7eea1ff43c1b33bf5cbab9b4d589b1b07d590
+
 - **Top Revenue Generator:** **The Thai Chicken Pizza** stands out as the highest-grossing product by revenue.
 - **Lowest Revenue Generator:** **The Brie Carre Pizza** recorded the lowest revenue performance, suggesting an opportunity for menu optimization, special promotions, or replacement.
 
@@ -235,4 +243,4 @@ LinkedIn: Esam Haraz
 
 GitHub: BananaLeauge
 
-Email: esamv20@gmail.com
+Email: <esamv20@gmail.com>
