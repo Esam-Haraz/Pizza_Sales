@@ -100,30 +100,39 @@
 ### 🗄️ تطبيق وتحليل SQL
 
 ![Creating SQL Table Schema](Images/Create_Table.png)
+
 *تصميم وتنفيذ مخطط الجدول في SQL لمطابقة خصائص ملف CSV وتجهيز قاعدة البيانات لاستقبال البيانات.*
 
 ![KPI Extraction Queries](Images/KPIs.png)
+
 *كتابة استعلامات SQL محسنة لحساب مؤشرات الأداء الرئيسية للعمل، بما في ذلك إجمالي الإيرادات، متوسط قيمة الطلب (AOV)، إجمالي البيتزا المباعة، وإجمالي الطلبات.*
 
 ![Daily Sales Peak Analysis](Images/Days_Peak.png)
+
 *تحليل توزيع الطلبات عبر أيام الأسبوع لتحديد فترات الذروة التشغيلية والأيام الأكثر طلباً.*
 
 ![Monthly Sales Peak Analysis](Images/Months_Peak.png)
+
 *تتبع اتجاهات المبيعات الشهرية لكشف أنماط الموسمية وتقلبات الإيرادات طوال العام.*
 
 ![Hourly Order Distribution](Images/Hours_Peak.png)
+
 *تقييم اتجاهات الطلب الساعية لتحديد ساعات الضغط وتحسين كفاءة طاقم المطبخ والتوصيل.*
 
 ![Top 5 Pizzas by Quantity](Images/Top_5_Pizza_Quantity.png)
+
 *تحديد أعلى 5 أنواع بيتزا مبيعاً بناءً على إجمالي الحجم المباع لإبراز المفضلة لدى العملاء.*
 
 ![Top 5 Pizzas by Revenue](Images/Top_5_Pizza_Sales.png)
+
 *تحديد أعلى 5 أنواع بيتزا تحقيقاً للإيرادات لمعرفة المحركات الرئيسية لإجمالي المبيعات.*
 
 ![Sales Breakdown by Pizza Category](Images/Percentage_of_Sales_by_Pizza_Category.png)
+
 *حساب النسبة المئوية لمساهمة كل فئة من البيتزا (Classic, Supreme, Veggy, Chicken) في إجمالي الإيرادات.*
 
 ![Sales Breakdown by Pizza Size](Images/Percentage_of_Sales_by_Pizza_Size.png)
+
 *تحليل نسبة الإيرادات حسب حجم البيتزا (Large, Medium, Small) لفهم تفضيلات العملاء للأحجام.*
 
 ---
@@ -215,7 +224,7 @@ Pizza_Sales/
 
 🤝 التواصل معي
 
-LinkedIn: Esam Haraz
+LinkedIn: [Esam Haraz](https://www.linkedin.com/in/esam-haraz-459925402)
 
 GitHub: BananaLeauge
 
