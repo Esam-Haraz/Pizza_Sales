@@ -1,3 +1,7 @@
+English | [العربية](README.ar.md)
+
+---
+
 # 🍕 Pizza Sales Performance & Operations Analytics (2015)
 
 ---
@@ -7,14 +11,25 @@
 - [Project Overview](#-project-overview)
 - [Business Problem & Objectives](#-business-problem--objectives)
 - [Tech Stack & Data Pipeline](#-tech-stack--data-pipeline)
-- [Dashboard Preview & Key Features](#-dashboard-preview--key-features)
-- [Executive Insights & Recommendations](#-executive-insights--recommendations)
-- [Project Structure & How to Run](#-project-structure--how-to-run)
+  - [Tools & Technologies](#1-tools--technologies)
+  - [End-to-End Data Pipeline](#2-end-to-end-data-pipeline)
+  - [SQL Implementation & Analysis](#-sql-implementation--analysis)
+  - [Excel Data Processing & Dashboard](#-excel-data-processing--dashboard)
+  - [Power BI Interactive Dashboard](#-power-bi-interactive-dashboard)
+- [Executive Insights & Key Findings](#-executive-insights--key-findings)
+- [Repository Structure](#-repository-structure)
+- [How to Run & Replicate](#-how-to-run--replicate)
+- [Connect with Me](#-connect-with-me)
+
+---
 
 ## 📌 Project Overview
 
 This project delivers a comprehensive end-to-end data analysis solution for a retail pizza outlet throughout the year 2015. By evaluating overall sales metrics, peak demand periods (hourly, daily, and monthly), product category performance, and pizza size preferences, this project transforms raw transactional data into actionable operational insights.
+
 The primary goal is to help store management optimize inventory, streamline staffing schedules during peak hours, and tailor promotional strategies toward high-performing products.
+
+---
 
 ## 🎯 Business Problem & Objectives
 
@@ -45,12 +60,13 @@ This analysis aims to address these challenges by answering key business questio
   - Identify **Top 5** and **Bottom 5** pizzas based on **Revenue** generated.
   - Identify **Top 5** and **Bottom 5** pizzas based on **Quantity** sold.
 
+---
+
 ## 🛠️ Tech Stack & Data Pipeline
 
 ### 1. Tools & Technologies
 
 - **Data Source:** [Kaggle](https://www.kaggle.com) (Pizza Sales Dataset 2015 - CSV format)
-
 - **Data Exploration & Cleaning:** Microsoft Excel & Power Query
 - **Database Management & Querying:** PostgreSQL / SQL Server (SQL Queries)
 - **Data Visualization & Analytics:** Power BI (DAX, Interactive Dashboards)
@@ -60,15 +76,23 @@ This analysis aims to address these challenges by answering key business questio
 
 ### 2. End-to-End Data Pipeline
 
-[Raw CSV (Kaggle)] ➡️ [Excel / Power Query (EDA & Cleaning)] ➡️ [SQL Database (Schema Setup & Queries)] ➡️ [Power BI (Modeling, DAX & Visualization)]
+`[Raw CSV (Kaggle)]` ➡️ `[Excel / Power Query (EDA & Cleaning)]` ➡️ `[SQL Database (Schema Setup & Queries)]` ➡️ `[Power BI (Modeling, DAX & Visualization)]`
 
-Step 1: Data Exploration & Cleaning (Excel & Power Query)
-• Performed initial Exploratory Data Analysis (EDA) to understand the dataset structure and column distributions.
-• Used Power Query for initial cleaning, data type validation, missing value checks, and date/time formatting.
-Step 2: Database Setup & Query Execution (SQL)
-• Created a dedicated database schema matching the cleaned dataset structure.
-• Imported the processed CSV data into SQL tables.
-• Wrote complex SQL queries to extract key operational insights, test KPI calculations, and answer core business questions.
+* **Step 1: Data Exploration & Cleaning (Excel & Power Query)**
+  * Performed initial Exploratory Data Analysis (EDA) to understand the dataset structure and column distributions.
+  * Used Power Query for initial cleaning, data type validation, missing value checks, and date/time formatting.
+
+* **Step 2: Database Setup & Query Execution (SQL)**
+  * Created a dedicated database schema matching the cleaned dataset structure.
+  * Imported the processed CSV data into SQL tables.
+  * Wrote complex SQL queries to extract key operational insights, test KPI calculations, and answer core business questions.
+
+* **Step 3: Modeling & Dashboard Creation (Power BI & Excel)**
+  * Imported data into Power BI and established relationships.
+  * Created custom DAX Measures for dynamic key performance indicators (Total Revenue, AOV, Total Pizzas Sold, etc.).
+  * Designed an interactive, modern user interface adhering to the 60-30-10 layout design principles for executive reporting.
+
+---
 
 ### 🗄️ SQL Implementation & Analysis
 
@@ -98,11 +122,8 @@ Step 2: Database Setup & Query Execution (SQL)
 
 ![Sales Breakdown by Pizza Size](Images/Percentage_of_Sales_by_Pizza_Size.png)
 *Analyzed revenue percentage by pizza size (Large, Medium, Small) to understand consumer sizing preferences.*
-then some queries
-Step 3: Modeling & Dashboard Creation (Power BI)
-• Imported data into Power BI and established relationships.
-• Created custom DAX Measures for dynamic key performance indicators (Total Revenue, AOV, Total Pizzas Sold, etc.).
-• Designed an interactive, modern user interface adhering to the 60-30-10 layout design principles for executive reporting.
+
+---
 
 ### 📊 Excel Data Processing & Dashboard
 
@@ -119,31 +140,26 @@ Step 3: Modeling & Dashboard Creation (Power BI)
 ![Power BI Interactive Dashboard](Images/Power_Bi_Dashboard.png)
 *Developed an end-to-end interactive Power BI dashboard featuring advanced DAX calculations, structured data modeling, and custom visuals for deep-dive exploratory data analysis.*
 
+---
+
 ## 📊 Executive Insights & Key Findings
 
 ### 1. Overall Key Performance Indicators (KPIs)
-
 - **Total Revenue:** $817.86K generated across the 2015 fiscal period.
-
 - **Total Orders:** 21,350 distinct transactions processed.
 - **Total Pizzas Sold:** 49,574 individual units sold.
 - **Average Order Value (AOV):** $38.31 spent per transaction on average.
 
 ### 2. Operational Trends & Peak Demand
-
 - **Peak Sales Days:** **Friday** and **Thursday** record the highest order volumes and sales activity, indicating key operational windows that require optimized kitchen staffing and inventory readiness.
 
 ### 3. Product Preferences & Category Breakdown
-
 - **Top Category:** The **Classic** pizza category leads the market share in terms of total customer demand and revenue contribution.
-
 - **Preferred Size:** **Large (L)** size pizzas are overwhelmingly preferred by customers, representing the dominant portion of total sales volume.
 
 ### 4. Product Performance (Top & Bottom)
-
-- **Top Revenue Generator:** ***The Thai Chicken Pizza*** stands out as the highest-grossing product by revenue.
-
-- **Lowest Revenue Generator:** ***The Brie Carre Pizza*** recorded the lowest revenue performance, suggesting an opportunity for menu optimization, special promotions, or replacement.
+- **Top Revenue Generator:** **The Thai Chicken Pizza** stands out as the highest-grossing product by revenue.
+- **Lowest Revenue Generator:** **The Brie Carre Pizza** recorded the lowest revenue performance, suggesting an opportunity for menu optimization, special promotions, or replacement.
 
 ---
 
@@ -171,7 +187,7 @@ Pizza_Sales/
 │
 ├── README.md                         # Main documentation (English)
 └── README.ar.md                      # Arabic documentation (Optional)
-```
+
 🚀 How to Run & Replicate
 Database Setup:
 
@@ -190,7 +206,7 @@ Power BI Dashboard:
 Open Power_BI/pizza_sales_report.pbix using Power BI Desktop to explore interactive filters and data modeling.
 
 🤝 Connect with Me
-LinkedIn: https://www.linkedin.com/in/esam-haraz-459925402/
+LinkedIn: Esam Haraz
 
 GitHub: BananaLeauge
 
