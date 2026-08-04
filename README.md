@@ -207,6 +207,7 @@ Power BI Dashboard:
 Open Power_BI/pizza_sales_report.pbix using Power BI Desktop to explore interactive filters and data modeling.
 
 🤝 Connect with Me
+
 LinkedIn: Esam Haraz
 
 GitHub: BananaLeauge
