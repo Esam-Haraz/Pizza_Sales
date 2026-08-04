@@ -92,20 +92,6 @@ This analysis aims to address these challenges by answering key business questio
   - Created custom DAX Measures for dynamic key performance indicators (Total Revenue, AOV, Total Pizzas Sold, etc.).
   - Designed an interactive, modern user interface adhering to the 60-30-10 layout design principles for executive reporting.
 
-- **Step 1: Data Exploration & Cleaning (Excel & Power Query)**
-  - Performed initial Exploratory Data Analysis (EDA) to understand the dataset structure and column distributions.
-  - Used Power Query for initial cleaning, data type validation, missing value checks, and date/time formatting.
-
-- **Step 2: Database Setup & Query Execution (SQL)**
-  - Created a dedicated database schema matching the cleaned dataset structure.
-  - Imported the processed CSV data into SQL tables.
-  - Wrote complex SQL queries to extract key operational insights, test KPI calculations, and answer core business questions.
-
-- **Step 3: Modeling & Dashboard Creation (Power BI & Excel)**
-  - Imported data into Power BI and established relationships.
-  - Created custom DAX Measures for dynamic key performance indicators (Total Revenue, AOV, Total Pizzas Sold, etc.).
-  - Designed an interactive, modern user interface adhering to the 60-30-10 layout design principles for executive reporting.
-
 ---
 
 ### 🗄️ SQL Implementation & Analysis
