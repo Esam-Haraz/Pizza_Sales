@@ -187,6 +187,7 @@ Pizza_Sales/
 │
 ├── README.md                         # Main documentation (English)
 └── README.ar.md                      # Arabic documentation (Optional)
+```
 
 🚀 How to Run & Replicate
 Database Setup:
