@@ -223,6 +223,6 @@ Pizza_Sales/
 
 LinkedIn: [Esam Haraz](https://www.linkedin.com/in/esam-haraz-459925402)
 
-GitHub: BananaLeauge
+GitHub: [Esam Haraz](https://github.com/Esam-Haraz/)
 
 Email: <esamv20@gmail.com>
