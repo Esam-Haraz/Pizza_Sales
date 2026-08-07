@@ -4,6 +4,8 @@ English | [العربية](README.ar.md)
 
 # 🍕 Pizza Sales Performance & Operations Analytics (2015)
 
+> *This README was written with AI assistance, under my guidance and review.*
+
 ---
 
 ## 📑 Table of Contents
